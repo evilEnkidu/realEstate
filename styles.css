@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    padding: 0 10px 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Utilities*/
+.img-header{
+    
+    height: 40vh;
+    line-height: 2;
+    color: white;
+    text-align: center;
+    background-image: url(./realEstate-img/header.jpg);
+}
