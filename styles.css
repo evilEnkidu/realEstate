@@ -13,7 +13,9 @@ a{
     color: white;
     text-decoration: none;
 }
-
+ul{
+    list-style-type: none;
+}
 /*Utilities*/
 .title{
     text-align: center;
@@ -45,10 +47,12 @@ a{
 /*Housing section*/
 .money{
     color: green;
+    font-size: 2vh;
 }
 .house-item{
     background-color: #dedede;
     margin-right: 10px;
+    border: 2px solid grey;
 }
 .house-item-img img{
     width: 100%;
@@ -73,4 +77,6 @@ a{
 }
 .flex-li{
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
