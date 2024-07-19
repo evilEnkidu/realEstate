@@ -15,11 +15,62 @@ a{
 }
 
 /*Utilities*/
+.title{
+    text-align: center;
+    padding: 25px 0 25px;
+}
 .img-header{
-    
+    font-size: 1.7em;
+    background-size: cover;
+    background-position: bottom center;
     height: 40vh;
     line-height: 2;
     color: white;
     text-align: center;
     background-image: url(./realEstate-img/header.jpg);
+}
+/* Flex */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 1.5vh;
+}
+.flex-item{
+    line-height: 2;
+    padding-top: 65px;
+    text-align: center;
+}
+/*Housing section*/
+.money{
+    color: green;
+}
+.house-item{
+    background-color: #dedede;
+    margin-right: 10px;
+}
+.house-item-img img{
+    width: 100%;
+    height: auto;
+}
+.house-img{
+    width: 250px;
+}
+.house-item-text{
+    background-color: #dedede;
+}
+.btn{
+    display:block;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.flex-list{
+    display: flex;
+    flex-direction: row; 
+}
+.flex-li{
+    padding: 10px;
 }
