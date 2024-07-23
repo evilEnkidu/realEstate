@@ -1,3 +1,4 @@
+/* Global */ 
 *{
     margin: 0;
     padding: 0;
@@ -13,16 +14,19 @@ a{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 ul{
     list-style-type: none;
 }
-/*Utilities*/
+/* Utilities */
 .title{
     text-align: center;
     padding: 25px 0 25px;
 }
 .img-header{
-    font-size: 1.7em;
+    font-size: 1.2rem;
     background-size: cover;
     background-position: bottom center;
     height: 40vh;
@@ -44,7 +48,7 @@ ul{
     padding-top: 65px;
     text-align: center;
 }
-/*Housing section*/
+/* Housing Section */
 .money{
     color: green;
     font-size: 2vh;
@@ -65,11 +69,12 @@ ul{
     background-color: #dedede;
 }
 .btn{
-    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
 }
 .flex-list{
     display: flex;
@@ -80,3 +85,94 @@ ul{
     display: flex;
     justify-content: center;
 }
+/* Contact */
+fieldset{
+    
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    background-color: #dedede;
+}
+legend{
+    font-size: 24px;
+}
+.input-container{
+    margin-bottom: 20px;
+}
+.input-container label{
+    font-size: 20px;
+    display: inline-block;
+    width: 10%;
+}
+.input-container input,
+.input-container textarea{
+    
+    display: inline-block;
+    width: 85%;
+    border: 1px solid rgb(158, 158, 158);
+    padding: 3px;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dedede;
+    height: 100px;
+    margin-top: 60px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-container{
+    
+    display: flex;
+}
+.text-container p:first-of-type{
+    margin-right: 20px;
+}
+.icons-container i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.container{
+    
+    padding: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-contact{
+    
+    background-color: #e99a25;
+    height: 200px;
+}
+.navigation-bar{
+    padding-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100px;
+    align-items: center;
+}
+.date{
+    max-width: 8rem;
+}
+.indications{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.links{
+    padding-left: 50px;
+}
+.home{
